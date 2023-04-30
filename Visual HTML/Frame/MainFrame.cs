@@ -170,5 +170,16 @@ namespace Visual_HTML.Frame
         {
             autocompletion.autobuComDown(comboBox2);
         }
+
+        private void 插件ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            plugframe pf = new plugframe();
+            pf.Show();
+        }
+
+        private void 帮助ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("Help\\help.chm");
+        }
     }
 }

@@ -61,6 +61,8 @@
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dllupdate = new System.Windows.Forms.Timer(this.components);
+            this.插件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MainMenu.SuspendLayout();
             this.richmenudown.SuspendLayout();
             this.SuspendLayout();
@@ -174,7 +176,8 @@
             // 工具ToolStripMenuItem
             // 
             this.工具ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.内部操作ToolStripMenuItem});
+            this.内部操作ToolStripMenuItem,
+            this.插件ToolStripMenuItem});
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
             this.工具ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.工具ToolStripMenuItem.Text = "工具";
@@ -184,7 +187,7 @@
             this.内部操作ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.uI调试器ToolStripMenuItem});
             this.内部操作ToolStripMenuItem.Name = "内部操作ToolStripMenuItem";
-            this.内部操作ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.内部操作ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.内部操作ToolStripMenuItem.Text = "内部操作";
             // 
             // uI调试器ToolStripMenuItem
@@ -196,6 +199,7 @@
             // 关于ToolStripMenuItem
             // 
             this.关于ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.帮助ToolStripMenuItem,
             this.关于ToolStripMenuItem1});
             this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
             this.关于ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
@@ -204,7 +208,7 @@
             // 关于ToolStripMenuItem1
             // 
             this.关于ToolStripMenuItem1.Name = "关于ToolStripMenuItem1";
-            this.关于ToolStripMenuItem1.Size = new System.Drawing.Size(100, 22);
+            this.关于ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.关于ToolStripMenuItem1.Text = "关于";
             this.关于ToolStripMenuItem1.Click += new System.EventHandler(this.关于ToolStripMenuItem1_Click);
             // 
@@ -336,6 +340,20 @@
             this.dllupdate.Interval = 10;
             this.dllupdate.Tick += new System.EventHandler(this.dllupdate_Tick);
             // 
+            // 插件ToolStripMenuItem
+            // 
+            this.插件ToolStripMenuItem.Name = "插件ToolStripMenuItem";
+            this.插件ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.插件ToolStripMenuItem.Text = "插件";
+            this.插件ToolStripMenuItem.Click += new System.EventHandler(this.插件ToolStripMenuItem_Click);
+            // 
+            // 帮助ToolStripMenuItem
+            // 
+            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.帮助ToolStripMenuItem.Text = "帮助";
+            this.帮助ToolStripMenuItem.Click += new System.EventHandler(this.帮助ToolStripMenuItem_Click);
+            // 
             // MainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -400,5 +418,7 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer dllupdate;
+        private System.Windows.Forms.ToolStripMenuItem 插件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
     }
 }
