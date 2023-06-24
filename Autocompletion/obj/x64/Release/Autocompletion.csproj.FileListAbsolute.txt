@@ -1,6 +1,0 @@
-E:\Project\CSharp Project\Visual HTML\Autocompletion\bin\x64\Release\Autocompletion.dll
-E:\Project\CSharp Project\Visual HTML\Autocompletion\bin\x64\Release\Autocompletion.pdb
-E:\Project\CSharp Project\Visual HTML\Autocompletion\obj\x64\Release\Autocompletion.csproj.AssemblyReference.cache
-E:\Project\CSharp Project\Visual HTML\Autocompletion\obj\x64\Release\Autocompletion.csproj.CoreCompileInputs.cache
-E:\Project\CSharp Project\Visual HTML\Autocompletion\obj\x64\Release\Autocompletion.dll
-E:\Project\CSharp Project\Visual HTML\Autocompletion\obj\x64\Release\Autocompletion.pdb
