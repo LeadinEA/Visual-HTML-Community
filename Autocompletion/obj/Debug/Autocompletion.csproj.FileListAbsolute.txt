@@ -1,0 +1,6 @@
+E:\Project\C# Project\Visual HTML\Visual HTML Start\Autocompletion.dll
+E:\Project\C# Project\Visual HTML\Visual HTML Start\Autocompletion.pdb
+E:\Project\C# Project\Visual HTML\Autocompletion\obj\Debug\Autocompletion.csproj.AssemblyReference.cache
+E:\Project\C# Project\Visual HTML\Autocompletion\obj\Debug\Autocompletion.csproj.CoreCompileInputs.cache
+E:\Project\C# Project\Visual HTML\Autocompletion\obj\Debug\Autocompletion.dll
+E:\Project\C# Project\Visual HTML\Autocompletion\obj\Debug\Autocompletion.pdb
